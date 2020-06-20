@@ -23,7 +23,7 @@ class _BallState extends State<Ball> {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Column(
+      child: Row(
         children: <Widget>[
           Expanded(
             child: FlatButton(
